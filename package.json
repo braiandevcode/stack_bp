@@ -2,6 +2,8 @@
   "name": "stackbp",
   "private": true,
   "type": "module",
+  "description": "Proyecto personal enfocado en crear sitios y aplicaciones web modernas para emprendedores, startups y proyectos creativos.",
+  "keywords": ["freelancer", "web-development", "fullstack", "react", "typescript", "small-business", "startup", "portfolio", "personal-project"],
   "scripts": {
     "dev": "vite",
     "build": "vite build",
