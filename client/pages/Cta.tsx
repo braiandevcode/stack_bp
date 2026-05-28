@@ -1,5 +1,5 @@
 import MainContext from "@/context/MainContext";
-import { MessageCircle } from "lucide-react";
+import { FaWhatsapp } from "react-icons/fa";
 import { useContext } from "react";
 
 // CTA LLAMADA A LA ACCION
@@ -24,7 +24,7 @@ const Cta = () => {
               onClick={handleWhatsAppClick}
               className="bg-primary-foreground text-primary px-8 py-4 rounded-lg font-semibold hover:opacity-90 transition-opacity flex items-center justify-center gap-2"
             >
-              <MessageCircle size={20} />
+              <FaWhatsapp size={20} />
               Hablar por WhatsApp
             </button>
           </div>

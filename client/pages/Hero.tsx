@@ -1,5 +1,6 @@
 import MainContext from "@/context/MainContext";
-import { Mail, MessageCircle } from "lucide-react";
+import { Mail } from "lucide-react";
+import { FaWhatsapp } from "react-icons/fa";
 import { useContext } from "react";
 
 // LO PRINCIPAL QUE VE EL USUARIO Y LA IMPORTANCIA DE MI SERVICIO
@@ -24,7 +25,7 @@ const Hero = () => {
               onClick={handleWhatsAppClick}
               className="bg-primary text-primary-foreground px-8 py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity flex items-center justify-center gap-2"
             >
-              <MessageCircle size={20} />
+              <FaWhatsapp size={20} />
               Contactarme por WhatsApp
             </button>
 
