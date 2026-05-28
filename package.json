@@ -3,7 +3,17 @@
   "private": true,
   "type": "module",
   "description": "Proyecto personal enfocado en crear sitios y aplicaciones web modernas para emprendedores, startups y proyectos creativos.",
-  "keywords": ["freelancer", "web-development", "fullstack", "react", "typescript", "small-business", "startup", "portfolio", "personal-project"],
+  "keywords": [
+    "freelancer",
+    "web-development",
+    "fullstack",
+    "react",
+    "typescript",
+    "small-business",
+    "startup",
+    "portfolio",
+    "personal-project"
+  ],
   "packageManager": "pnpm@11.1.2",
   "scripts": {
     "dev": "vite",
@@ -54,8 +64,8 @@
     "vaul": "^1.1.2"
   },
   "devDependencies": {
-    "@tailwindcss/postcss": "^4.3.0",
     "@tailwindcss/typography": "^0.5.19",
+    "@tailwindcss/vite": "^4.3.0",
     "@types/node": "^25.9.0",
     "@types/react": "^19.2.0",
     "@types/react-dom": "^19.2.0",
