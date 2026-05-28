@@ -2,7 +2,7 @@ import "./global.css";
 import { createRoot } from "react-dom/client";
 // import { Toaster as Sonner } from "@/components/ui/sonner";
 // import { TooltipProvider } from "@/components/ui/tooltip";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router";
 import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
 import MainProvider from "./context/MainProvider";

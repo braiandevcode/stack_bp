@@ -3,7 +3,7 @@ import { LIST_NAV } from "@/config/config.list.nav";
 import MainContext from "@/context/MainContext";
 import { ListIcon } from "lucide-react";
 import { useContext } from "react";
-import { Link } from "react-router-dom";
+import { Link } from "react-router";
 const Header = () => {
   const { openMenu, open } = useContext(MainContext); //USO DE CONTEXTO
 

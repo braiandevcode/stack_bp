@@ -1,4 +1,4 @@
-import { TTheme } from "./types/typeTheme";
+import type { TTheme } from "./types/typeTheme";
 const STORAGE_KEY:string = "theme";
 
 
